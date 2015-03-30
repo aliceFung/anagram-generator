@@ -1,6 +1,13 @@
+<link rel="stylesheet" href="/images/arrow.png">
+<div>
+
 <h1>Anagrams for <%= "#{@word}" %></h1>
-<ul>
+    <br>
+<img src="/images/arrow.png" class="center-block" alt="Responsive image">
+    <br>
+<ul class="list-unstyled">
     <% @anagrams.each do |word| %>
     <li> <%= "#{word}" %> </li>
     <% end %>
 </ul>
+</div>

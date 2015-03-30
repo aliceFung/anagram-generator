@@ -1,0 +1,13 @@
+body {
+    background: peachpuff;
+    background:url('images/tiles-02.png');
+    font-family: 'montserrat', arial;
+    text-align: center;
+    color: royalblue;
+    font-size: 22px;
+}
+
+h1 {
+    border: 5px dotted lightgray;
+    font-weight: 700;
+}
