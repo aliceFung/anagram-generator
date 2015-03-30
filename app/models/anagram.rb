@@ -4,17 +4,17 @@ require_relative 'reverse_letters'
     
 #end
 
-def find_anagram(string)
-    anagram=[]
+def find_anagrams(string)
+    anagrams=[]
     string = string.chomp
     letters=[]
     string.each_char { |c| letters << c }
     letters.each do |c|
         leftover = letters.select {|letter| letter!=c}
-        anagram << c + leftover.join
-        anagram << c + reverse_letters(leftover).join
+        anagrams << c + leftover.join
+        anagrams << c + reverse_letters(leftover).join
     end
-    return anagram
+    return anagrams
 end
 
-puts find_anagram("dog")
+puts find_anagrams("dog")
