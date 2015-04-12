@@ -4,7 +4,7 @@ require_relative 'reverse_letters'
     
 #end
 
-def find_anagrams(string)
+def find_anagram(string)
     anagrams=[]
     string = string.chomp
     letters=[]
@@ -17,4 +17,4 @@ def find_anagrams(string)
     return anagrams
 end
 
-puts find_anagrams("dog")
+puts find_anagram("dog")
