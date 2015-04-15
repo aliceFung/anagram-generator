@@ -12,3 +12,4 @@ gem 'rack'
 gem 'rack-test'
 
 gem 'faker'
+gem 'puma'
